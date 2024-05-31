@@ -1,4 +1,5 @@
 # cmake-project-template
+![example branch parameter](https://github.com/Zhouyuan-Chen/cmake-project-template/actions/workflows/build.yml/badge.svg)
 
 This is a template for the cmake project. You should do the  following steps to setup your project:
 
