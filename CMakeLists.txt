@@ -21,4 +21,7 @@ target_link_libraries(TinyAlligator PUBLIC
     igl::glfw
     )
 
+target_link_libraries(TinyAlligator PUBLIC Eigen3::Eigen igl::glfw)
+target_link_libraries(alligator_play PRIVATE TinyAlligator igl::glfw)
+
 enable_testing()
